@@ -1,7 +1,7 @@
 # README
 图片懒加载
 
-项目Fork自然[jQuery Lazyload](https://github.com/tuupola/jquery_lazyload)
+项目Fork自[jQuery Lazyload](https://github.com/tuupola/jquery_lazyload)
 
 ## 更新
 - 移除jQuery相关代码
