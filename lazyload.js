@@ -73,7 +73,7 @@
         /* Merge the object into the extended object */
         let merge = function (obj) {
             for (let prop in obj) {
-                if (hasOwnProperty.call(obj, prop)) {
+                if (hasOwn.call(obj, prop)) {
                     /* If deep merge and property is an object, merge properties */
                     if (deep && isObject(obj[prop])) {
                         extended[prop] = extend(true, extended[prop], obj[prop]);
